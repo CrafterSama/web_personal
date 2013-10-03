@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/ubuntu-m-webfont.eot');
+    src: url('../fonts/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-m-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-m-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-family: 'joicons';
+    src:url('../fonts/joicons.eot');
+    src:url('../fonts/joicons.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/joicons.woff') format('woff'),
+        url('../fonts/joicons.ttf') format('truetype'),
+        url('../fonts/joicons.svg#joicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a
+{
+    color: #f90;
+    text-decoration: none;
+}
+article h2
+{
+    color: #E58900;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 1px #212121;
+}
+body
+{
+    background: url('../images/bg.jpg') #212121 no-repeat center fixed;
+    font-family: 'ubuntumedium', Arial, Helvetica;
+    font-size: 16px;
+}
+figure
+{
+
+}
+footer
+{
+    background: rgba(21,21,21,0.7);
+    bottom: 0;
+    color: #FFF;
+    padding: 1.5em 1.5em;
+    text-align: center;
+}
+header 
+{
+    margin: auto;
+    margin-top: 2em;
+    padding: 0.5em;
+    max-width: 1024px;
+}
+header h1 
+{
+    color: #E58900;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px #212121;
+
+}
+header h5
+{
+    font-weight: normal;
+    text-align: center;
+}
+nav
+{
+    background: #212121;
+    color: #FFF;
+    line-height: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0;
+
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0 0.8em 0 0.8em;
+    padding: 5px 0;
+    vertical-align: top;
+}
+section #about_me, section #social_bar
+{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+#about_me p 
+{
+    text-align: justify;
+}
+#about_me, #social_buttons
+{
+    padding: 1.2em;
+}
+#social_bar
+{
+    margin: 18px 0 0 0;
+}
+#social_buttons
+{
+    padding: .4em;
+    text-align: center;
+}
+#social_buttons a
+{
+    display: inline-block;
+    margin: .5em .5em;
+    vertical-align: middle;
+}
+#social_buttons #facebook:after
+{
+    color: #2664BF;
+    content: "\e16a";
+    font-family: "joicons";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #flickr
+{
+
+}
+#social_buttons #flickr:before
+{
+    color: #0046FF;
+    content: "\e3b7";
+    font-family: "joicons";
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #flickr:after
+{
+    color: #F70076;
+    content: "\e3b7";
+    font-family: "joicons";
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #github:after
+{
+    color: #000;
+    content: "\e188";
+    font-family: "joicons";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #gplus:after
+{
+    color: #C83F11;
+    content: "\e166";
+    font-family: "joicons";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #instagram:after
+{
+    color: #2C61BF;
+    content: "\e16c";
+    font-family: "joicons";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#social_buttons #twitter:after
+{
+    color: #13BAEA;
+    content: "\e16d";
+    font-family: "joicons";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #212121;
+}
+#wrapper
+{
+    background: rgba(255,255,255,0.7)
+}
+.spin {
+    -webkit-transition: all 0.2s ease;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+.spin:hover {
+    -webkit-transform: rotate(360deg) scale(1.2,1.2);
+    transform: rotate(360deg) scale(1.2,1.2);
+}

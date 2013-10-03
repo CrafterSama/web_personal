@@ -1,0 +1,9 @@
+@media screen and (min-height: 767px) {
+    footer
+    {
+        margin: auto;
+        position: fixed;
+        bottom: 0;
+        width: 99%;
+    }
+}
